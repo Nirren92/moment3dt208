@@ -33,7 +33,7 @@ export class ConvertComponent {
   
   convertfeettometer():void
   {
-    this.result = (this.value/3.2808).toString()+" ft";
+    this.result = (this.value/3.2808).toString()+" m";
   }
 
 }
