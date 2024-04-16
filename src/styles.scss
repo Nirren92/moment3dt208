@@ -13,6 +13,8 @@ main
 
     
     .container {
+        
+
         margin: auto;
         margin-top: 5%;
     
@@ -23,6 +25,12 @@ main
         padding: 10px;
         box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.5);
         animation: växaFram 0.5s ease-out forwards;
+
+        h1
+        {
+            width: 100%;
+            text-align: center;
+        }
     }
 
 }
