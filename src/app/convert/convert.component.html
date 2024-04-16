@@ -1,1 +1,18 @@
-<p>convert works!</p>
+<H1>Convert values</H1>
+
+<div class="container_button">
+    <label for="value">Värde</label>
+    <input type="number" id="value" [(ngModel)]="value">
+</div>
+
+<div class="container_button">
+    <button (click)="convertcelctofar()">Celcius To Farenheit</button>
+    <button (click)="convertfartocel()">Farenheit To Celcius</button>
+    <button (click)="convertfeettometer()">Feet To Meter</button>
+    <button (click)="convertmetertofeet()">Meter To Feet</button>
+</div>
+
+<div class="container_button">
+   <h2>Resultat:</h2>
+    <p>{{result}}</p>
+</div>

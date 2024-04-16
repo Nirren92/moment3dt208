@@ -1,0 +1,30 @@
+
+h1
+{
+    width: 100%;
+    text-align: center;
+}
+
+.container_button
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    button
+    {
+        max-width: 200px;
+        max-height: 80px;
+        margin-top: 5px;
+        border-radius: 50px;
+        font-size: clamp(15px, 2vw, 24px);
+        &:hover {
+            background-color: #504c4c;
+            color: #f0f0f0;
+        
+        }
+    }
+
+}

@@ -1,13 +1,16 @@
 header
 {
     height: 100px;
-    background-color: aqua;
+    background-color: rgb(197, 233, 233);
     width: 100%;
 
-
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        
     nav
     {
-
+        height: 100px;
+        background-color: rgb(197, 233, 233);
+        width: 100%;
         ul
         {
             padding: 0;
@@ -24,10 +27,8 @@ header
         a
         {
             float: left;
-
             display: block;
             width: 100%;
-
             line-height: 100px;
             padding-left: 10px;
             padding-right: 10px;
@@ -42,3 +43,5 @@ header
     }
 
 }
+
+
