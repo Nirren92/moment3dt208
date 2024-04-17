@@ -1,24 +1,22 @@
 p
 {
     font-size: clamp(15px, 2vw, 24px);
+    text-align: center;
 }
 
-testar
+    
+.container_img
 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     margin-top: 20px;
-position: relative;
-    .container_img
+    width: 100%;
+    img
     {
 
-        img
-        {
+        border-radius: 20px;
     
-            border-radius: 20px;
-            object-fit: "contain"
-        }
+        width: 90%;
     }
 }
