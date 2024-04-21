@@ -22,6 +22,9 @@ header
         {
             display: inline-block;
             height: auto;
+            width: 100%;
+            max-width: 70px;
+
         }
 
         a
@@ -30,8 +33,7 @@ header
             display: block;
             width: 100%;
             line-height: 100px;
-            padding-left: 10px;
-            padding-right: 10px;
+
             text-align: center;
             background-color: beige;
             &:hover
@@ -39,6 +41,12 @@ header
                 background-color: rgb(75, 75, 70);
             }
 
+        }
+
+        .aktivnav
+        {
+            background-color: rgb(255, 255, 255);
+            color: black;
         }
     }
 
